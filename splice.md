@@ -19,8 +19,6 @@ Splice can be used to add, remove, or replace the content of the targeted array'
 
 <!-- How to call it with description of what each part does -->
 
-
-
 exampleArray.splice(); 
 First we designate the array we wish to splice. In this case "exampleArray".
 
