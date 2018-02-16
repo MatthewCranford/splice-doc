@@ -34,6 +34,7 @@ exampleArray.splice();
 exampleArray.splice(2, 1, "item");
 
 \- Next we pass in the parameters. 
+
 \- The first parameter, "2" represents our "start" index in this case 2.
 
 \- Our second parameter, "1" is our "deleteCount", the number of elements to remove.
@@ -57,9 +58,9 @@ var serenity = [
 "Book",  
 ]
 
-serenity.splice(0, 1, "Mal");
-
 \- Let's add the proper captain back to the Serenity.
+
+serenity.splice(0, 1, "Mal");
 
 0 : "Mal", 1 : "Zoe", 2 : "Wash", 3 : "Inara", 4 : "Jayne", 5 : "Kaylee", 6 : "Simon", 7 : "River", 8 : "Book" 
 
