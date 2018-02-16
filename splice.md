@@ -54,9 +54,11 @@ Q: What's an example of using splice?
   ]
 
   \- Let's add the proper captain back to the Serenity.
+
   serenity.splice(0, 1, "Mal");
 
   \- Our array now holds the new element at index 0 and our ship has it's captain back.
+  
   0 : "Mal", 1 : "Zoe", 2 : "Wash", 3 : "Inara", 4 : "Jayne", 5 : "Kaylee", 6 : "Simon", 7 : "River", 8 : "Book" 
 
  
