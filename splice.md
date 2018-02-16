@@ -27,38 +27,44 @@ Q: What are some uses for splice?
 
 Q: How to use/call splice?
 
-  exampleArray.splice(); 
-  \- First we designate the array we wish to splice. In this case "exampleArray".
+exampleArray.splice(); 
 
-  exampleArray.splice(2, 1, "item");
-  \- Next we pass in the parameters. 
-  \- The first parameter, "2" represents our "start" index in this case 2.
-  \- Our second parameter, "1" is our "deleteCount", the number of elements to remove.
-  \- Last, our third parameter "item" is the element we wish to add to the array at our "start" index.
+\- First we designate the array we wish to splice. In this case "exampleArray".
+
+exampleArray.splice(2, 1, "item");
+
+\- Next we pass in the parameters. 
+\- The first parameter, "2" represents our "start" index in this case 2.
+
+\- Our second parameter, "1" is our "deleteCount", the number of elements to remove.
+
+\- Last, our third parameter "item" is the element we wish to add to the array at our "start" index.
 
 <!-- Example scenario(s) in which to use this function and example(s) of it's 
 implementation with html and css (if necessary) -->
 
 Q: What's an example of using splice?
 
-  var serenity = [
-  "Jack Sparrow", 
-  "Zoe", 
-  "Wash", 
-  "Inara", 
-  "Jayne", 
-  "Kaylee", 
-  "Simon", 
-  "River", 
-  "Book",  
-  ]
+var serenity = [
+"Jack Sparrow", 
+"Zoe", 
+"Wash", 
+"Inara", 
+"Jayne", 
+"Kaylee", 
+"Simon", 
+"River", 
+"Book",  
+]
 
-  \- Let's add the proper captain back to the Serenity.
+serenity.splice(0, 1, "Mal");
 
-  serenity.splice(0, 1, "Mal");
+\- Let's add the proper captain back to the Serenity.
 
-  \- Our array now holds the new element at index 0 and our ship has it's captain back.
-  
-  0 : "Mal", 1 : "Zoe", 2 : "Wash", 3 : "Inara", 4 : "Jayne", 5 : "Kaylee", 6 : "Simon", 7 : "River", 8 : "Book" 
+0 : "Mal", 1 : "Zoe", 2 : "Wash", 3 : "Inara", 4 : "Jayne", 5 : "Kaylee", 6 : "Simon", 7 : "River", 8 : "Book" 
+
+\- Our array now holds the new element at index 0 and our ship has it's captain back. 
+
+
 
  
